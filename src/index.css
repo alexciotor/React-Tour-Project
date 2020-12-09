@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+body {
+  background-color: white;
+}
+.loading {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  margin-top: 20vh;
+  font-size: 100px;
+  letter-spacing: 5px;
+}
+
+.tours {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+.title {
+  font-size: 40px;
+  text-transform: capitalize;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 10vh;
+}
+.underline {
+  width: 150px;
+  height: 8px;
+  background-color: aqua;
+  margin: auto;
+  margin-top: 5px;
+}
+img {
+  width: 600px;
+  height: 500px;
+}
+.component {
+  margin: auto;
+  width: 50%;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 100px;
+  grid-gap: 100px;
+}
+.article {
+  text-align: center;
+}
+.tag {
+  color: rgb(14, 116, 150);
+  display: inline-block;
+  font-size: 1.2rem;
+}
+.title-price {
+  line-height: 1.5;
+  margin: auto;
+  padding-top: 20px;
+  font-size: 1.1rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.main-content {
+  border-radius: 0 0 10px 10px;
+  box-shadow: 1px 1px 15px rgb(154, 148, 148);
+  width: 600px;
+  background-color: transparent;
+}
+h4 {
+  width: 70%;
+}
+p {
+  line-height: 1.5;
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  color: rgb(117, 179, 199);
+}
+.btn {
+  background-color: transparent;
+  border: 1px solid darkred;
+  border-radius: 5px;
+  text-transform: capitalize;
+  color: darkred;
+  font-size: 20px;
+  padding: 20px;
+  margin: 20px;
+  cursor: pointer;
+}
